@@ -1,0 +1,113 @@
+<head>
+<title>Bike Riding by Gender</title>
+
+</head>
+
+<body>
+
+    <script>
+      <script src="C:/Users/hyunoo/Data/d3plus/bower_components/d3/d3.min.js"></script>
+      <script src="app.js"></script>
+
+      <script>
+      var data = [
+        {id: "Male", x: 1, y: 31895},
+        {id: "Male", x: 2, y: 44820},
+        {id: "Male", x: 3, y: 47735},
+        {id: "Male", x: 4, y: 48989},
+        {id: "Male", x: 5, y: 48201},
+        {id: "Male", x: 6, y: 47217},
+        {id: "Male", x: 7, y: 35097},
+        {id: "Male", x: 8, y: 24520},
+        {id: "Male", x: 9, y: 27038},
+        {id: "Male", x: 10, y: 49949},
+        {id: "Male", x: 11, y: 44096},
+        {id: "Male", x: 12, y: 42978},
+        {id: "Male", x: 13, y: 45905},
+        {id: "Male", x: 14, y: 33963},
+        {id: "Male", x: 15, y: 32584},
+        {id: "Male", x: 16, y: 42904},
+        {id: "Male", x: 17, y: 44779},
+        {id: "Male", x: 18, y: 48393},
+        {id: "Male", x: 19, y: 49554},
+        {id: "Male", x: 20, y: 47994},
+        {id: "Male", x: 21, y: 36251},
+        {id: "Male", x: 22, y: 33911},
+        {id: "Male", x: 23, y: 46409},
+        {id: "Male", x: 24, y: 34666},
+        {id: "Male", x: 25, y: 49612},
+        {id: "Male", x: 26, y: 45263},
+        {id: "Male", x: 27, y: 47167},
+        {id: "Male", x: 28, y: 35075},
+        {id: "Male", x: 29, y: 6624},
+        {id: "Male", x: 30, y: 35038},
+        {id: "Male", x: 31, y: 42694},
+        {id: "Female", x: 1, y: 13972},
+        {id: "Female", x: 2, y: 15344},
+        {id: "Female", x: 3, y: 16541},
+        {id: "Female", x: 4, y: 17104},   
+        {id: "Female", x: 5, y: 16647},
+        {id: "Female", x: 6, y: 16194},
+        {id: "Female", x: 7, y: 14631},   
+        {id: "Female", x: 8, y: 9301},
+        {id: "Female", x: 9, y: 8669},
+        {id: "Female", x: 10, y: 17243},
+        {id: "Female", x: 11, y: 14755},
+        {id: "Female", x: 12, y: 13861},
+        {id: "Female", x: 13, y: 15247},
+        {id: "Female", x: 14, y: 14163},
+        {id: "Female", x: 15, y: 13306},
+        {id: "Female", x: 16, y: 14132},
+        {id: "Female", x: 17, y: 15194},
+        {id: "Female", x: 18, y: 16693},
+        {id: "Female", x: 19, y: 16888},
+        {id: "Female", x: 20, y: 16736},
+        {id: "Female", x: 21, y: 15713},
+        {id: "Female", x: 22, y: 14648},
+        {id: "Female", x: 23, y: 15834},
+        {id: "Female", x: 24, y: 10743},
+        {id: "Female", x: 25, y: 16563},
+        {id: "Female", x: 26, y: 14584},
+        {id: "Female", x: 27, y: 15588},
+        {id: "Female", x: 28, y: 14829},
+        {id: "Female", x: 29, y: 2066},
+        {id: "Female", x: 30, y: 11145},
+        {id: "Female", x: 31, y: 13458},
+      ];
+ 
+    new d3plus.BarChart()
+        .data(data)
+      .stacked(true)
+      .render();
+    </script>
+
+</body>
+
+
+<div id="recipe">
+<h1 align="center"><strong><font face="Verdana" color="#00BFFF">Bike Riding by Gender</font></strong></h1>
+
+  <ul>
+
+<h3 align="center"><font face="Verdana" color="#000000">Bike Rental Count by Gender</font></h3>
+
+
+
+
+
+<img src="gender.png" alt="bike by gender" width="100%" style="border:0">
+
+
+<p align="left"><strong><font face="Verdana">This graph illustrates dauliy bike rentals by gender. 
+We would like to investigate the rental patterns of gender on daily basis in accordance of weather conditions</font></strong></p>
+
+
+
+ <h3> <em> <b> Male vs. Female Rental</b></em></h3>
+  <ul>
+  	<font face="Verdana" color="#06296F">
+     <li> Male riders' daily average rental counts : 40,365</li>
+     <li> Female riders' daily average rental counts : 14,251</li>
+     <li> Male on average rent <b>26,114</b> more bikes on daily basis</li>
+    </font>
+
